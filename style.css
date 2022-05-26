@@ -83,3 +83,30 @@ body {
 .icon-img li {
   list-style-type: none;
 }
+
+.hold-image {
+  height: 300px;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.lists-item {
+  color: #7a869a;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  list-style-type: none;
+}

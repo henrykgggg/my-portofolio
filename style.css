@@ -183,8 +183,8 @@ button:disabled {
   border-top-right-radius: 5rem;
   padding-top: 5rem;
   padding-bottom: 2rem;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 28px;
+  padding-right: 28px;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, 100% 100%;
 }
@@ -195,6 +195,14 @@ button:disabled {
   flex-direction: column;
   gap: 30px;
   list-style-type: none;
+  padding: 0%;
+}
+
+.no-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
 }
 
 .languages {
@@ -214,4 +222,15 @@ button:disabled {
   background-color: #f7f7f9;
   padding: 10px;
   border-radius: 5px;
+}
+
+.languages li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.lang-exp {
+  margin: 0;
+  display: grid;
+  grid-gap: 20px;
 }

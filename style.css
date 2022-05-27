@@ -188,3 +188,30 @@ button:disabled {
   background-repeat: no-repeat, no-repeat;
   background-size: cover, 100% 100%;
 }
+
+.lang {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.languages {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  list-style-type: none;
+}
+
+.languages li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7f7f9;
+  padding: 10px;
+  border-radius: 5px;
+}

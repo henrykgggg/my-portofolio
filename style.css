@@ -244,7 +244,7 @@ button:disabled {
   width: 100%;
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 90% 100% ;
+  background-size: 90% 100%;
   border-top-left-radius: 100px;
 }
 
@@ -262,11 +262,9 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .contact-me {
- 
   font-family: "poppins", sans-serif;
   margin-block-end: 0;
   font-size: 40px;

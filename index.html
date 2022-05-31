@@ -350,7 +350,43 @@
             to help with it
           </p>
         </div>
-
+        <form
+          class="contact-section"
+          action="https://formspree.io/f/xyyoddrv"
+          method="post"
+        >
+          <input
+            id="name"
+            class="text-holder1"
+            type="text"
+            name="name"
+            maxlength="30"
+            required
+            placeholder="name"
+          />
+          <input
+            id="email"
+            class="text-holder1"
+            type="email"
+            name="name"
+            required
+            placeholder="email"
+          />
+          <textarea
+            id="message"
+            class="text-area"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea>
+          <div id="form-button">
+            <button class="clicked-btn" type="submit" name="sumit">
+              Get In Touch
+            </button>
+            <p id="form-error"></p>
+          </div>
+        </form>
+      </section>
     </footer>
   </body>
 </html>

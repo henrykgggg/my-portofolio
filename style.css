@@ -241,8 +241,8 @@ button:disabled {
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  gap: 10px;
   background-repeat: no-repeat;
+  background-position: right;
   background-size: 100% 100%;
 }
 
@@ -253,4 +253,43 @@ button:disabled {
   gap: 10px;
   margin: 0 auto 50px;
   background-repeat: no-repeat;
+}
+
+.contact-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me {
+  font-family: "poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.paragraph {
+  width: 380px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  color: #fff;
+}
+
+.text-holder1 {
+  height: 3rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 12px;
+  margin-bottom: 3px;
+}
+
+.text-area {
+  color: #b3bac5;
+  height: 10rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 12px;
 }

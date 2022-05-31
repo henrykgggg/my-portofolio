@@ -234,3 +234,23 @@ button:disabled {
   display: grid;
   grid-gap: 20px;
 }
+
+.contacts {
+  background-image: url("./images/contactshapes.png"), url("./images/contact_me.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 10px;
+  margin: 0 auto 50px;
+  background-repeat: no-repeat;
+}

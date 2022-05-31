@@ -105,7 +105,7 @@ body {
 }
 
 .language-container {
-  display: flex;
+  float: inherit;
   flex-direction: row;
   gap: 8px;
   padding-left: 0%;

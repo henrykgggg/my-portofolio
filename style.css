@@ -309,6 +309,7 @@ button:disabled {
   }
 
   .navibar {
+    position: fixed;
     width: 100%;
     padding: 0;
     background-color: #fff;
@@ -361,8 +362,8 @@ button:disabled {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-top: 80px;
   }
 
   .first-text {

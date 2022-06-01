@@ -339,6 +339,15 @@ button:disabled {
     background-image: url(./images/Header-desktop.png);
     background-size: 100%;
     border-bottom-left-radius: 100px;
+    background-color: #fff;
+  }
+
+  .icon {
+    padding-bottom: 10px;
+  }
+
+  .logo {
+    padding-top: 15px;
   }
 
   .h-container > * {

@@ -390,6 +390,7 @@ button:disabled {
     gap: 60px;
     width: 90%;
     height: auto;
+    margin-bottom: 70px;
   }
 
   .card-contain {
@@ -406,5 +407,68 @@ button:disabled {
 
   .about-me-holder section:nth-child(2) {
     width: 60%;
+  }
+
+  .lang ul {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .contacts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+  }
+
+  .contact-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-section {
+    width: 50%;
+    margin: 10px;
+  }
+
+  #name,
+  #email,
+  #messag {
+    border-radius: 0%;
+  }
+
+  .paragraph {
+    width: 60%;
+    color: #ebebff;
+    line-height: 28px;
+    margin-top: 0;
+    order: 0;
+    font-size: medium;
+  }
+
+  #clicked-btn {
+    align-self: center;
+    width: 30%;
+    margin-left: 190px;
+    margin-top: 10px;
+  }
+
+  .text-area {
+    border-radius: 0%;
+  }
+
+  .languages li {
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+  }
+
+  footer {
+    background-image: url(./images/contact-deskk.png), url(./images/contact-blue.png);
   }
 }

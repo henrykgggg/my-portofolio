@@ -297,3 +297,41 @@ button:disabled {
   border: none;
   padding: 12px;
 }
+
+.nav-list {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .navibar {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .nav-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .navi-item {
+    text-align: center;
+  }
+
+  .navi-item a {
+    color: #344563;
+    text-decoration: none;
+  }
+}

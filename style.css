@@ -356,6 +356,14 @@ button:disabled {
     height: auto;
   }
 
+  .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
   .first-text {
     font-size: 35px;
     margin-bottom: 20px;

@@ -340,6 +340,8 @@ button:disabled {
     background-size: 100%;
     border-bottom-left-radius: 100px;
     background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
   }
 
   .icon {
@@ -359,8 +361,8 @@ button:disabled {
   .projects {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 25px;
+    margin-bottom: 40px;
     margin-top: 20px;
   }
 

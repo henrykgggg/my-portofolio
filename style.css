@@ -337,11 +337,13 @@ button:disabled {
   }
 
   .h-container {
+    display: flex;
+    justify-content: center;
     background-image: url(./images/Header-desktop.png);
     background-size: 100%;
     border-bottom-left-radius: 100px;
     background-color: #fff;
-    height: 916px;
+    width: 100%;
   }
 
   .icon {
@@ -352,10 +354,10 @@ button:disabled {
     padding-top: 15px;
   }
 
-  .h-container > * {
-    width: 70%;
-    margin: 0 auto;
-    height: auto;
+  .header-holder {
+    width: 75%;
+    margin-top: 140px;
+    margin-bottom: 0%;
   }
 
   .projects {
@@ -367,12 +369,13 @@ button:disabled {
   }
 
   .first-text {
-    font-size: 35px;
+    font-size: 45px;
     margin-bottom: 20px;
   }
 
   .second-text {
     margin-bottom: 20px;
+    width: 75%;
   }
 
   .hold-item {
@@ -465,7 +468,7 @@ button:disabled {
   }
 
   .contact-section {
-    width: 50%;
+    width: 40%;
     margin: 10px;
   }
 
@@ -476,7 +479,7 @@ button:disabled {
   }
 
   .paragraph {
-    width: 50%;
+    width: 532px;
     color: #ebebff;
     line-height: 28px;
     margin-top: 0;

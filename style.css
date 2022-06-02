@@ -124,6 +124,7 @@ body {
 
 button {
   cursor: pointer;
+  transition: all 1s ease-out;
 }
 
 button:enabled {

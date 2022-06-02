@@ -337,13 +337,13 @@ button:disabled {
     color: #344563;
     text-decoration: none;
     transition-property: top;
-    transition-duration:  1s;
+    transition-duration: 1s;
   }
 
-.navi-item a:hover{
-  font-size: 20px;
-  color: #620bd3;
-}
+  .navi-item a:hover {
+    font-size: 20px;
+    color: #620bd3;
+  }
 
   .h-container {
     display: flex;
@@ -395,10 +395,13 @@ button:disabled {
     gap: 20px;
     margin: 0 auto;
   }
- .card-contain:hover {
-   
+
+  .card-contain {
+    border-color: #dfe1e6;
+  }
+
+  .card-contain:hover {
     border: 2px solid #6070ff;
-   
   }
 
   .item2 {
@@ -440,10 +443,6 @@ button:disabled {
     width: 90%;
     height: auto;
     margin-bottom: 70px;
-  }
-
-  .card-contain {
-    border-color: #dfe1e6;
   }
 
   .about-me-holder section {

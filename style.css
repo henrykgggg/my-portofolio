@@ -338,10 +338,10 @@ button:disabled {
 
   .h-container {
     background-image: url(./images/Header-desktop.png);
+    background-size: 100%;
     border-bottom-left-radius: 100px;
     background-color: #fff;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    height: 916px;
   }
 
   .icon {
@@ -384,6 +384,14 @@ button:disabled {
     margin: 0 auto;
   }
 
+  .item2 {
+    flex-direction: row-reverse;
+  }
+
+  .item4 {
+    flex-direction: row-reverse;
+  }
+
   .hold-item > * {
     height: 100%;
   }
@@ -394,6 +402,11 @@ button:disabled {
 
   .hold-item section {
     height: 100%;
+  }
+
+  #card2 {
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   .about-container {
@@ -448,6 +461,7 @@ button:disabled {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 70px;
   }
 
   .contact-section {
@@ -462,7 +476,7 @@ button:disabled {
   }
 
   .paragraph {
-    width: 60%;
+    width: 50%;
     color: #ebebff;
     line-height: 28px;
     margin-top: 0;
@@ -475,6 +489,7 @@ button:disabled {
     width: 30%;
     margin-left: 190px;
     margin-top: 10px;
+    margin-bottom: 50px;
   }
 
   .text-area {

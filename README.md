@@ -12,7 +12,7 @@ This my portofolio website which describe my ability and my recents projects and
 
 ## Live Demo
 
-[henrykgggg's my-portofolio](https://henrykgggg.github.io/)
+[henrykgggg's my-Portofolio](https://henrykgggg.github.io/)
 
 ## Getting Started
 

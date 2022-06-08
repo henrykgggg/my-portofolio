@@ -336,13 +336,13 @@ button:disabled {
     color: #344563;
     text-decoration: none;
     transition-property: top;
-    transition-duration:  1s;
+    transition-duration: 1s;
   }
 
-.navi-item a:hover{
-  font-size: 20px;
-  color: #620bd3;
-}
+  .navi-item a:hover {
+    font-size: 20px;
+    color: #620bd3;
+  }
 
   .h-container {
     display: flex;

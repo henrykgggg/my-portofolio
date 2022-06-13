@@ -45,6 +45,16 @@ body {
   right: 0;
   bottom: 0;
 }
+#mobile-menu ul{
+  text-align: center;
+}
+#mobile-menu ul li{
+  list-style: none;
+  margin: 40px 0;
+}
+#mobile-menu ul li a{
+  text-decoration: none;
+}
 
 .h-container {
   background-image: url("./images/header-shapes-mobile.png"), url("./images/header-background-mobile.png");

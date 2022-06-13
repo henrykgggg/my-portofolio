@@ -10,4 +10,14 @@ function openMenu() {
 }
 
 btn.addEventListener('click', openMenu); 
+function closeMenu() { 
+  mobileMenu.style.display = 'none';                
+  btn.style.display = 'block';                 
+}
+
+document.addEventListener('click', (event) => {
+  if (event.target.id === 'close-menu') {
+    closeMenu();
+  }
+});
 

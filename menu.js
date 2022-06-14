@@ -28,12 +28,12 @@ function closeMenu() {
 document.addEventListener('click', (e) => {
   if (e.target.id === 'close-menu') {
     closeMenu();
-  } else if (event.target.id === 'logo') {
+  } else if (e.target.id === 'logo') {
     closeMenu();
   }
 });
 
-for (let i= 0; i<quit.length;i ++){
+for (let i= 0; i<= quit.length;i++){
   quit[i].addEventListener('click',()=>{
       closeMenu();
   });

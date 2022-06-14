@@ -1,10 +1,8 @@
 const mobileMenu = document.getElementById('mobile-menu');
 const btn = document.getElementById('menu-btn');
 const myLogo = document.getElementById('logo');
+const quit =document.querySelectorAll('#menu')
 
-const menu1 = document.getElementById('menu1');
-const menu2 = document.getElementById('menu2');
-const menu3 = document.getElementById('menu3');
 
 function preventScroll(e) {
   e.tpreventDefault();
@@ -35,6 +33,8 @@ document.addEventListener('click', (event) => {
   }
 });
 
-menu1.addEventListener('click', closeMenu);
-menu2.addEventListener('click', closeMenu);
-menu3.addEventListener('click', closeMenu);
+for (let i= 0; i<quit.length;i ++){
+  quit[i].addEventListener('click',()=>{
+      closeMenu();
+  });
+}

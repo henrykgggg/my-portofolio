@@ -34,6 +34,18 @@ body {
   background-color: #f7f7f9;
 }
 
+#mobile-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #396df2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .h-container {
   background-image: url("./images/header-shapes-mobile.png"), url("./images/header-background-mobile.png");
   background-repeat: no-repeat, no-repeat;
@@ -303,6 +315,14 @@ button:disabled {
 }
 
 @media only screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  #menu-btn {
+    display: none;
+  }
+
   .nav-container {
     width: 90%;
     margin: 0 auto;

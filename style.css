@@ -29,31 +29,36 @@ body {
   color: #6070ff;
 }
 
-.menu-btn {
+#menu-btn {
   border: none;
   background-color: #f7f7f9;
 }
 
 #mobile-menu {
   position: fixed;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: start;
-  background-color: #396df2;
+  background-color: #6070ff;
+  backdrop-filter: blur(3px);
+  gap: 8px;
+  font-size: larger;
+  list-style-type: none;
+  opacity: 0.9;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  margin: 0;
+  z-index: 99;
 }
-#mobile-menu ul{
-  text-align: center;
-}
-#mobile-menu ul li{
-  list-style: none;
-  margin: 40px 0;
-}
-#mobile-menu ul li a{
-  text-decoration: none;
+
+#close-menu {
+  color: #fff;
+  display: flex;
+  align-self: flex-end;
+  margin-top: 30px;
+  margin-right: 50px;
 }
 
 .h-container {
@@ -324,8 +329,30 @@ button:disabled {
   display: none;
 }
 
+#menu-btn:enabled {
+  color: #6070ff;
+  background-color: #fff;
+  border-color: #6070ff;
+}
+
+#mobile-menu ul {
+  text-align: start;
+}
+
+#mobile-menu ul li {
+  list-style: none;
+  margin: 40px 0;
+}
+
+#mobile-menu ul li a {
+  text-decoration: none;
+  color: #ebebff;
+  font-family: "poppins", sans-serif;
+  font-size: larger;
+}
+
 @media only screen and (min-width: 768px) {
-  .mobile-menu {
+  #mobile-menu {
     display: none;
   }
 
@@ -343,10 +370,6 @@ button:disabled {
     width: 100%;
     padding: 0;
     background-color: #fff;
-  }
-
-  .menu-btn {
-    display: none;
   }
 
   .nav-list {

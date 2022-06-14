@@ -24,10 +24,10 @@ function closeMenu() {
   document.querySelector('.scrollable').removeEventListener('wheel', preventScroll, { passive: false });
 }
 
-document.addEventListener('click', (e) => {
-  if (e.target.id === 'close-menu') {
+document.addEventListener('click', (event) => {
+  if (event.target.id === 'close-menu') {
     closeMenu();
-  } else if (e.target.id === 'logo') {
+  } else if (event.target.id === 'logo') {
     closeMenu();
   }
 });

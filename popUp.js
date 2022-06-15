@@ -94,3 +94,8 @@ const projects = [
     </section>
     `
   }
+  document.addEventListener('click', (event) => {
+    if(event.target.id === 'close-popUp'){
+        popUp.style.display = 'none';
+    }
+  });

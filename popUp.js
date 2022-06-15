@@ -99,3 +99,40 @@ const projects = [
         popUp.style.display = 'none';
     }
   });
+  function mobile(index){
+    popUp.style.display='block';
+    popUp.appendChild(projectDetailCard);
+    projectDetailCard.innerHTML=`
+    <div class="modal-content">
+        <div class="modal-head">
+            <h2>${projects[index].title}</h2>
+            <i class="fa-solid fa-xmark" id="close-popUp"></i>
+        </div>
+        <div class="modal-prof">
+            <span>${projects[index].prof}</span>
+
+        </div>
+        <div class="modal-image">
+            <images src =${projects[index].src}
+        </div>
+        </div>
+  <div class="modal-description">
+    <p>${projects[index].description}</p>
+  </div>
+  <div class="modal-technolog">
+  <ul class="project-lists">
+  
+    <li>${projects[index].technologies[0]}</li>
+    
+    <li>${projects[index].technologies[1]}</li>
+
+    <li>${projects[index].technologies[2]}</li>
+ 
+    <li>${projects[index].technologies[3]}</li>
+ 
+  </ul>
+</div>
+<button>
+<a href="${projects[index].seeLiveLink}">See Live <img src="img/github.png" alt="See live"></i></a>
+</button>
+)

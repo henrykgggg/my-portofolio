@@ -1,52 +1,52 @@
 const projects = [
-    {
-      title: 'TONIC 1',
-      prof:['Canopy','back end Dev','2015'],
-      src: "images/snapshoot4.png",
-      description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
-      technologies: ['html', 'Ruby', 'css', 'Github'],
-      seeLiveLink: '#',
-      seeSourceLink: '#',
-    },
-    {
-      title: 'TONIC 2',
-      prof:['Canopy','back end Dev','2015'],
-      src: "images/portfolio_4.png",
-      description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
-      technologies: ['html', 'Ruby ', 'css', 'Github'],
-      seeLiveLink: '#',
-      seeSourceLink: '#',
-    },
-    {
-      title: 'TONIC 3',
-      prof:['Canopy','back end Dev','2015'],
-      src: "images/portfolio_4.png",
-      description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
-      technologies: ['html', 'Ruby', 'css', 'Github'],
-      seeLiveLink: '#',
-      seeSourceLink: '#',
-    },
-    {
-      title: 'TONIC 4',
-      prof:['Canopy','back end Dev','2015'],
-      src: "images/Snapshoot.png",
-      description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
-      technologies: ['html', 'Ruby', 'css', 'Github'],
-      seeLiveLink: '#',
-      seeSourceLink: '#',
-    },
-  ];
+  {
+    title: 'TONIC 1',
+    prof: ['Canopy', 'back end Dev', '2015'],
+    src: 'images/snapshoot4.png',
+    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
+    technologies: ['html', 'Ruby', 'css', 'Github'],
+    seeLiveLink: '#',
+    seeSourceLink: '#',
+  },
+  {
+    title: 'TONIC 2',
+    prof: ['Canopy', 'back end Dev', '2015'],
+    src: 'images/portfolio_4.png',
+    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
+    technologies: ['html', 'Ruby ', 'css', 'Github'],
+    seeLiveLink: '#',
+    seeSourceLink: '#',
+  },
+  {
+    title: 'TONIC 3',
+    prof: ['Canopy', 'back end Dev', '2015'],
+    src: 'images/portfolio_4.png',
+    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
+    technologies: ['html', 'Ruby', 'css', 'Github'],
+    seeLiveLink: '#',
+    seeSourceLink: '#',
+  },
+  {
+    title: 'TONIC 4',
+    prof: ['Canopy', 'back end Dev', '2015'],
+    src: 'images/Snapshoot.png',
+    description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe."],
+    technologies: ['html', 'Ruby', 'css', 'Github'],
+    seeLiveLink: '#',
+    seeSourceLink: '#',
+  },
+];
 
-  const projectDetailCard = document.createElement('div');
-  projectDetailCard.className = "project-detail-card";
-  const popUp = document.getElementById('project-details');
-  const Allbuttons = document.querySelectorAll('.click-btn');
-  const btns = Array.from(Allbuttons);
+const projectDetailCard = document.createElement('div');
+projectDetailCard.className = 'project-detail-card';
+const popUp = document.getElementById('project-details');
+const Allbuttons = document.querySelectorAll('.click-btn');
+const btns = Array.from(Allbuttons);
 
-  function desktop (index) {
-    popUp.style.display='block';
-    popUp.appendChild(projectDetailCard);
-    projectDetailCard.innerHTML=`
+function desktop(index) {
+  popUp.style.display = 'block';
+  popUp.appendChild(projectDetailCard);
+  projectDetailCard.innerHTML = `
     <div class="modal-content">
 
     <i class="fa-solid fa-xmark" id="close-popUp"></i>
@@ -92,18 +92,18 @@ const projects = [
 </div>
     </div>
     </section>
-    `
+    `;
+}
+document.addEventListener('click', (event) => {
+  if (event.target.id === 'close-popUp') {
+    popUp.style.display = 'none';
   }
-  document.addEventListener('click', (event) => {
-    if(event.target.id === 'close-popUp'){
-        popUp.style.display = 'none';
-    }
-  });
+});
 
-  function mobile(index){
-    popUp.style.display='block';
-    popUp.appendChild(projectDetailCard);
-    projectDetailCard.innerHTML=`
+function mobile(index) {
+  popUp.style.display = 'block';
+  popUp.appendChild(projectDetailCard);
+  projectDetailCard.innerHTML = `
     <div class="modal-content">
         <div class="modal-head">
             <h2>${projects[index].title}</h2>
@@ -141,22 +141,20 @@ const projects = [
 </button>
 </div>
     </div>
-    </section>`
-    
-  }
+    </section>`;
+}
 
-  document.addEventListener('click',(event)=>{
-    if(event.target.id === 'close-popUp'){
-       popUp.style.display='none';
-    }
+document.addEventListener('click', (event) => {
+  if (event.target.id === 'close-popUp') {
+    popUp.style.display = 'none';
+  }
 });
 
-for (let i = 0; i< btns.length; i += 1) {
-    btns[i].addEventListener('click', () => {
-         mobile(i);
-         
-    });
-    btns[i].addEventListener('click', () => {
-        desktop(i);
-    });
+for (let i = 0; i < btns.length; i += 1) {
+  btns[i].addEventListener('click', () => {
+    mobile(i);
+  });
+  btns[i].addEventListener('click', () => {
+    desktop(i);
+  });
 }

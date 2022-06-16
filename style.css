@@ -351,6 +351,15 @@ button:disabled {
   font-size: larger;
 }
 
+#form-error {
+  display: none;
+  color: rgb(240, 34, 34);
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
 @media only screen and (min-width: 768px) {
   #mobile-menu {
     display: none;

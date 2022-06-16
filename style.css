@@ -549,12 +549,16 @@ button:disabled {
     font-size: medium;
   }
 
-  #clicked-btn {
+  .clicked-btn {
     align-self: center;
     width: 30%;
     margin-left: 190px;
     margin-top: 10px;
     margin-bottom: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    border: none;
   }
 
   .text-area {

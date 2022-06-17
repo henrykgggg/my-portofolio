@@ -19,6 +19,7 @@
   height: 100%;
   width: 80%;
 }
+
 .modal-prof {
   width: 100%;
   background-color: rgb(251, 245, 248);
@@ -31,15 +32,15 @@
   align-items: center;
   justify-content: flex-start;
 }
- .project-liste{
-  /* background-color: red; */
+
+ .modal-prof .project-liste{
   padding: 0;
   list-style-type: circle;
  }
+
 .lister{
-  /* background-color: red; */
   display:inline-block;
-  list-style-type: square;
+  list-style-type: circle;
   margin-right: 20px;
 }
 
@@ -51,7 +52,6 @@
   font-size: 35px;
   cursor: pointer;
   color: #1a2236;
-
 }
 
 

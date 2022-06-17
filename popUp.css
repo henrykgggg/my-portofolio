@@ -131,19 +131,21 @@
 .click-btn {
   font-size: 15px;
   color: #396df2;
-  padding: 9px;
+  padding: 8px;
   background-color: transparent;
   border: 1px solid #396df2;
   border-radius: 6px;
   width: 40%;
   margin: 10px 10px;
   text-decoration: none;
-  text-align: center;
-}
-
-.click-btn .one{
+  text-align: left;
   position: relative;
 }
+.click-btn img{
+  position: absolute;
+  top: 5px
+}
+
 /* .click-btn .one img{
   position: absolute;
   top: 0;
@@ -151,6 +153,8 @@
 
 
 .click-btn a {
+  margin-right: 7px;
+ padding-right: 13px;
   text-decoration: none;
 }
 

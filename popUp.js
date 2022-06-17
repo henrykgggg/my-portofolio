@@ -87,11 +87,11 @@ function desktop(index) {
     <li class="lisp">${projects[index].technologies[5]}</li>
  <ul>
 </div>
-  <button class="click-btn one">
+  <button class="click-btn">
 <a href="${projects[index].seeLiveLink}">See Live <img src="images/Icon-Export.svg" alt="See live"></i></a>
 </button>
-<button class="click-btn tw0">
-<a href="${projects[index].seeSourceLink}">See Source <img src="images/github.png" alt="Github icon"></a>
+<button class="click-btn">
+<a href="${projects[index].seeSourceLink}">See Source <img src="images/vectr34.png" alt="Github icon"></a>
 </button>
 </div>
 

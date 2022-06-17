@@ -192,5 +192,13 @@
     text-decoration: none;
     text-align: center;
   }
+
+  ul.project-lists {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 12px;
+    justify-content: flex-start;
+  }
   
 }

@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Karamaga's portofolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="popUp.css" />
+    <script defer src="menu.js"></script>
+    <script defer src="popUp.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
@@ -17,11 +27,21 @@
           <li class="navi-item"><a href="#About">About</a></li>
           <li class="navi-item"><a href="#Contact">Contact</a></li>
         </ul>
-        <button type="button" id="menu-btn" class="menu-btn">
+        <button type="button" id="menu-btn">
           <img class="mobile-menu" src="images/Union.png" alt=" navigation" />
         </button>
       </nav>
     </header>
+    <section id="mobile-menu">
+      <i class="fa-solid fa-xmark" id="close-menu"></i>
+      <ul>
+        <li class="navbar-item menu">
+          <a href="#Portfolio">Portofolio</a>
+        </li>
+        <li class="navbar-item menu"><a href="#About">About</a></li>
+        <li class="navbar-item menu"><a href="#Contact">Contact</a></li>
+      </ul>
+    </section>
     <main class="main">
       <section class="h-container">
         <div class="header-holder">
@@ -222,6 +242,7 @@
       <div class="card-contain">
         <ul class="cards-list">
           <li class="hold-item item4">
+            0.2
             <img
               class="hold-image"
               src="images/Snapshoot5.png"
@@ -413,5 +434,6 @@
         </form>
       </section>
     </footer>
+    <section id="project-details"></section>
   </body>
 </html>

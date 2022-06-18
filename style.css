@@ -192,6 +192,7 @@ button:disabled {
   margin: 12px auto;
   border-radius: 16px;
   background-color: #fff;
+  transition: all 0.2s ease-in;
 }
 
 .btno {
@@ -448,6 +449,14 @@ button:disabled {
     margin: 0 auto;
   }
 
+  .card-contain {
+    border-color: #dfe1e6;
+  }
+
+  .card-contain:hover {
+    border: 2px solid #6070ff;
+  }
+
   .item2 {
     flex-direction: row-reverse;
   }
@@ -487,10 +496,6 @@ button:disabled {
     width: 90%;
     height: auto;
     margin-bottom: 70px;
-  }
-
-  .card-contain {
-    border-color: #dfe1e6;
   }
 
   .about-me-holder section {

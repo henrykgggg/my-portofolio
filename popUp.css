@@ -6,7 +6,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:#fff;
+  background-color: #fff;
   overflow-x: hidden;
 }
 
@@ -33,18 +33,18 @@
   justify-content: flex-start;
 }
 
- .modal-prof .project-liste{
+.modal-prof .project-liste {
   padding: 0;
   list-style-type: circle;
- }
+}
 
-.lister{
-  display:inline-block;
+.lister {
+  display: inline-block;
   list-style-type: circle;
   margin-right: 20px;
 }
 
-#close-popUp{
+#close-popUp {
   position: absolute;
   right: 20px;
   top: 10px;
@@ -54,28 +54,26 @@
   color: #1a2236;
 }
 
-
-
-.modal-image{
+.modal-image {
   width: 100%;
   height: 100%;
 }
 
-.modal-image img{
+.modal-image img {
   width: 100%;
   height: 100%;
 }
 
-.modal-head{
+.modal-head {
   position: relative;
   display: flex;
-   width:102%;
+  width: 102%;
   background-color: white;
-
 }
 
-.modal-head h2{
+.modal-head h2 {
   width: 50%;
+
   /* background-color: #18da25; */
 }
 
@@ -92,6 +90,7 @@
   text-align: left;
   color: #344563;
   font-size: 18px;
+
   /* background-color: palegoldenrod; */
 }
 
@@ -104,11 +103,12 @@
   display: flex;
   gap: 8px;
 }
-.project-listser{
+
+.project-listser {
   display: flex;
 }
 
-.lisp{
+.lisp {
   list-style: none;
   background: #ebebff;
   border-radius: 4px;
@@ -117,14 +117,14 @@
   font-size: 14px;
   color: #6070ff;
 }
+
 .list {
   list-style: none;
   background: #ebebff;
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 5px 10px;
-  margin: 0 2px;
+  margin: 0 3px;
   font-size: 14px;
-  color: #6070ff;
   color: #6070ff;
 }
 
@@ -141,9 +141,10 @@
   text-align: left;
   position: relative;
 }
-.click-btn img{
+
+.click-btn img {
   position: absolute;
-  top: 5px
+  top: 5px;
 }
 
 /* .click-btn .one img{
@@ -151,15 +152,13 @@
   top: 0;
 } */
 
-
 .click-btn a {
   margin-right: 7px;
- padding-right: 13px;
+  padding-right: 13px;
   text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
-
   .modal-main {
     width: 95%;
     flex-direction: column;
@@ -167,7 +166,8 @@
     color: #344563;
     margin: 0 auto;
   }
-  .project-listser{
+
+  .project-listser {
     display: none;
   }
 
@@ -177,6 +177,7 @@
     text-align: left;
     color: #344563;
     font-size: 18px;
+
     /* background-color: palegoldenrod; */
   }
 
@@ -200,5 +201,4 @@
     margin-bottom: 12px;
     justify-content: flex-start;
   }
-  
 }
